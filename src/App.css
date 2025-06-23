@@ -1,0 +1,102 @@
+.me-gusta-btn {
+  background-color: gray !important;
+  color: white !important;
+  border: none !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.me-gusta-btn.liked {
+  background-color: #ff6666 !important; 
+  color: white !important;
+}
+
+.btn-custom {
+  background-color: #2f4f4f !important; 
+  color: white !important;
+  border: none !important;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-custom:hover {
+  background-color: #ff7f7f !important; 
+  color: white !important;
+}
+
+.favorite-card {
+  background-color: #6c757d !important; 
+}
+
+
+body {
+  background-image: url('https://c4.wallpaperflare.com/wallpaper/113/501/130/pokemon-bulbasaur-pokemon-charmander-pokemon-pikachu-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.me-gusta-btn {
+  background-color: gray;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.me-gusta-btn.liked {
+  background-color: #ff6666; 
+  color: white;
+}
+
+.custom-button {
+  background-color: #2f4f4f; 
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #ff7f7f; 
+  color: white;
+}
+
+.favorite-card {
+  background-color: #6c757d; 
+}
+
+
+.chat-box {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.chat-message {
+  margin: 5px 0;
+}
+
+.user-message {
+  text-align: right;
+  font-weight: bold;
+}
+
+.ai-message {
+  text-align: left;
+  color: #007bff;
+}
+
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .chat-box {
+    height: 200px;
+  }
+}
